@@ -1,4 +1,7 @@
 # pdfMaker
-A dynamic PDF generator using Python with ReportLab
+A dynamic PDF report generator
 
-Test commit
+Dependencies
+------------
+
+Python 2.7 and ReportLab
