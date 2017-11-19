@@ -1,6 +1,6 @@
 """
-The class in this file is responsible for providing a consistent approach to constructing the basic elements of reports
-including management of the page layouts (portrait and landscape), cover page, table of content,
+The class in this file is responsible for providing a consistent approach to constructing all the basic elements of
+reports including management of the page layouts (portrait and landscape), cover page, table of content,
 headers and footers. It sub-classes the ReportLab BaseDocTemplate and as such it must adhere to the contract for that
 super-class.
 """

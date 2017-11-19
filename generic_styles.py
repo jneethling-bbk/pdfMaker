@@ -3,7 +3,7 @@ This file defines and encapsulates all the custom font styles that are used in t
 It can be used in any report type by simply importing the ReportStylesheet class and calling the static methods (i.e.
 the class is never meant to be instantiated, hence is static state with no instance methods)
 Any additional custom styles that may be required in future should be defined here together with appropriate
-static accessor methods (or getters)
+static accessor methods (getters)
 """
 
 from reportlab.pdfbase import pdfmetrics
