@@ -82,7 +82,7 @@ class ReportTemplate(BaseDocTemplate):
         self.emblem1.drawWidth = 0.6 * cm
         self.emblem1.drawOn(canvas, ldoc.width + 75, ldoc.height + ldoc.topMargin + 45)
         d = Drawing(ldoc.width, 1)
-        d.add(Line(0, 0, ldoc.width + 40, 0, strokeWidth=0.1, strokeColor=ReportColors.get_kaizen_blue()))
+        d.add(Line(0, 0, ldoc.width + 40, 0, strokeWidth=0.1, strokeColor=ReportColors.get_my_blue()))
         d.drawOn(canvas, ldoc.leftMargin - 20, ldoc.height + ldoc.topMargin + 40)
         canvas.restoreState()
 
@@ -98,7 +98,7 @@ class ReportTemplate(BaseDocTemplate):
         self.emblem1.drawWidth = 0.6 * cm
         self.emblem1.drawOn(canvas, ldoc.width + 280, ldoc.height + ldoc.topMargin - 205)
         d = Drawing(ldoc.height, 1)
-        d.add(Line(0, 0, ldoc.height, 0, strokeWidth=0.1, strokeColor=ReportColors.get_kaizen_blue()))
+        d.add(Line(0, 0, ldoc.height, 0, strokeWidth=0.1, strokeColor=ReportColors.get_my_blue()))
         d.drawOn(canvas, ldoc.leftMargin - 20, ldoc.height + ldoc.topMargin - 210)
         canvas.restoreState()
 
